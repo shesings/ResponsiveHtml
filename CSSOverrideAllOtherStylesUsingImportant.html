@@ -1,0 +1,20 @@
+<style>
+    body {
+        background-color: black;
+        font-family: monospace;
+        color: green;
+    }
+    #orange-text {
+        color: orange;
+    }
+    .pink-text {
+        /*using important to override all things that take precedence*/
+        color: pink !important;
+    }
+    .blue-text {
+        color: blue;
+    }
+</style>
+<!--notice that the text is now pink because of !important-->
+<!--important overrides all other styles -->
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
